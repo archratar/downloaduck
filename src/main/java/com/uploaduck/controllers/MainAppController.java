@@ -17,7 +17,7 @@ public class MainAppController {
 
     @RequestMapping(path = "/")
     public String mainPage() {
-        return "";
+        return "greetings from uploaduck api";
     }
 
     @RequestMapping(path = "upload", method = RequestMethod.POST)
